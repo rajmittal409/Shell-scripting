@@ -40,7 +40,8 @@ function help{
   if [$# -ne $args]; then
     echo "Wrong number of arguments"
     echo "asd"
-    }
+fi
+}
 
 # Main script
 
