@@ -37,7 +37,7 @@ function list_users_with_read_access {
 }
 function help{
   args=2
-  if [$# -ne $args], then
+  if [$# -ne $args]; then
     echo "Wrong number of arguments"
     }
 
