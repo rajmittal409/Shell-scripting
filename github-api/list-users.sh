@@ -1,5 +1,5 @@
 #!/bin/bash
-
+help()
 # GitHub API URL
 API_URL="https://api.github.com"
 
@@ -35,6 +35,11 @@ function list_users_with_read_access {
         echo "$collaborators"
     fi
 }
+function help{
+  args=2
+  if [$# -ne $args], then
+    echo "Wrong number of arguments"
+    }
 
 # Main script
 
