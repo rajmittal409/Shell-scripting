@@ -39,6 +39,7 @@ function help{
   args=2
   if [$# -ne $args]; then
     echo "Wrong number of arguments"
+    echo "asd"
     }
 
 # Main script
